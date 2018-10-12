@@ -1,0 +1,29 @@
+2018-07-27 11:52:26,391 dialThread.py[line:85] 140651019208448 INFO grepcmd: grep "New Channel.*18600227230" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 11:52:26,440 dialThread.py[line:87] 140651019208448 INFO grepcmd result: grep "New Channel.*18600227230" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 11:52:26,441 dialThread.py[line:93] 140651019208448 INFO grepcmd: grep ".*Close Channel.*" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 11:52:26,457 dialThread.py[line:95] 140651019208448 INFO grepcmd result: grep ".*Close Channel.*" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 11:53:22,190 dialThread.py[line:85] 139706658473728 INFO grepcmd: grep "New Channel.*18600227230" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 11:53:22,194 dialThread.py[line:87] 139706658473728 INFO grepcmd result: 
+2018-07-27 11:53:22,194 dialThread.py[line:93] 139706658473728 INFO grepcmd: grep ".*Close Channel.*" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 11:53:22,199 dialThread.py[line:95] 139706658473728 INFO grepcmd result: f2488d9e-783b-11e8-a0b0-f7082b5094c2
+2018-07-27 12:00:38,691 dialThread.py[line:85] 139762609903360 INFO grepcmd: grep "New Channel.*18600227230" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:00:38,696 dialThread.py[line:87] 139762609903360 INFO grepcmd result: 2a596af2-9144-11e8-8965-b5ad1d0a2a22
+2018-07-27 12:00:38,696 dialThread.py[line:93] 139762609903360 INFO grepcmd: grep "2a596af2-9144-11e8-8965-b5ad1d0a2a22.*Close Channel.*" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:00:38,701 dialThread.py[line:95] 139762609903360 INFO grepcmd result: 2a596af2-9144-11e8-8965-b5ad1d0a2a22
+2018-07-27 12:01:58,688 dialThread.py[line:85] 140393694914304 INFO grepcmd: grep "New Channel.*18600227230" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:01:58,692 dialThread.py[line:87] 140393694914304 INFO grepcmd result: 2a596af2-9144-11e8-8965-b5ad1d0a2a22
+2018-07-27 12:01:58,693 dialThread.py[line:93] 140393694914304 INFO grepcmd: grep "2a596af2-9144-11e8-8965-b5ad1d0a2a22.*Close Channel.*" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:01:58,696 dialThread.py[line:95] 140393694914304 INFO grepcmd result: 2a596af2-9144-11e8-8965-b5ad1d0a2a22
+2018-07-27 12:01:58,697 dialThread.py[line:98] 140393694914304 INFO Channel already closed: 2a596af2-9144-11e8-8965-b5ad1d0a2a22
+2018-07-27 12:02:46,342 dialThread.py[line:85] 140068571735808 INFO grepcmd: grep "New Channel.*18600227230" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:02:46,347 dialThread.py[line:87] 140068571735808 INFO grepcmd result: 2a596af2-9144-11e8-8965-b5ad1d0a2a24
+2018-07-27 12:02:46,347 dialThread.py[line:93] 140068571735808 INFO grepcmd: grep "2a596af2-9144-11e8-8965-b5ad1d0a2a24.*Close Channel.*" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:02:46,350 dialThread.py[line:95] 140068571735808 INFO grepcmd result: 
+2018-07-27 12:02:46,351 dialThread.py[line:103] 140068571735808 INFO diallcmd: fs_cli -x 'uuid_kill 2a596af2-9144-11e8-8965-b5ad1d0a2a24'
+2018-07-27 12:02:46,380 dialThread.py[line:105] 140068571735808 INFO diallcmd result: None
+2018-07-27 12:03:23,719 dialThread.py[line:85] 139929878472448 INFO grepcmd: grep "New Channel.*18600227230" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:03:23,723 dialThread.py[line:87] 139929878472448 INFO grepcmd result: 2a596af2-9144-11e8-8965-b5ad1d0a2a24
+2018-07-27 12:03:23,723 dialThread.py[line:93] 139929878472448 INFO grepcmd: grep "2a596af2-9144-11e8-8965-b5ad1d0a2a24.*Close Channel.*" /usr/local/freeswitch/log/freeswitch.log|tail -n1 |awk '{print $1}'
+2018-07-27 12:03:23,727 dialThread.py[line:95] 139929878472448 INFO grepcmd result: 
+2018-07-27 12:03:23,727 dialThread.py[line:103] 139929878472448 INFO diallcmd: fs_cli -x 'uuid_kill 2a596af2-9144-11e8-8965-b5ad1d0a2a24'
+2018-07-27 12:03:23,730 dialThread.py[line:105] 139929878472448 INFO diallcmd result: None
