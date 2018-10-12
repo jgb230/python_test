@@ -1,0 +1,2 @@
+{"S_NAME":"st_match.xlsx", "T_NAME":"TB_MATCH", "t_RowNum":1, "b_RowNum":3, "e_RowNum":4, "b_ColNum":1, "e_ColNum":15, "t_list":"I|V|I|D|D|V|V|V|V|V|V|V|V|V|V"}
+{"S_NAME":"st_place.xlsx", "T_NAME":"TB_PLACE", "t_RowNum":1, "b_RowNum":3, "e_RowNum":21, "b_ColNum":1, "e_ColNum":4, "t_list":"I|V|I|I"}

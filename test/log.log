@@ -1,0 +1,5 @@
+sendFailedMsg!-----
+msg602 {"robotType": 1, "cmd": 602, "uid": "18600227230", "playerID": 0}!
+ret:1
+message:[b'{"playerID":0,"routingID":"66666666666666666666666666666666","uid":"18600227230","robotFlag":1,"robotList":[{"robotID":"180503160656acfed70eaed3RI004004","robotType":1}],"cmd":700}']
+msg600 {"user_service": "贷款呼叫系统未接通", "cmd": 600, "uid": "18600227230", "robotid": "180503160656acfed70eaed3RI004004"}!
