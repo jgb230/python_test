@@ -61,6 +61,7 @@ def search(sfrom, sto, sdate, args):
             '&leftTicketDTO.to_station={}'
             '&purpose_codes=ADULT').format(sdate, sfrom, sto)
     res = requests.get(url, verify=False)
+    print(res)
     place = res.json()['data']['map']
     trans = res.json()['data']['result']
     options = ''.join([
